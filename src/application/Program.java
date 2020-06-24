@@ -31,7 +31,7 @@ ChessPosition target = UI.readChessPosition(sc);
 
 ChessPiece capturedPiece = chessMatch.performChessMove(source,target);
 
-		}
+		}	
 			catch (InputMismatchException e) {
 				System.out.println(e.getMessage());
 				sc.nextLine();
